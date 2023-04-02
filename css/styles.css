@@ -72,7 +72,7 @@ body {
   color: var(--ocean);
 }
 
-.header-contacts {
+.header-contacts-link {
   width: 153px;
   height: 24px;
   color: var(--slate);
