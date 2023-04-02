@@ -20,7 +20,8 @@
 .header-item {
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
