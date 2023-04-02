@@ -37,11 +37,7 @@ body {
   list-style: none;
 }
 
-.btn:hover,
-.btn:focus {
-  color: var(--white)
-  background-color: var(--ocean);
-}
+
 
 /* Header styles */
 
@@ -111,6 +107,12 @@ body {
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white)
+  background-color: var(--ocean);
 }
 
 
