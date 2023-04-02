@@ -59,22 +59,21 @@ body {
 .header-item {
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--ocean);
+.header-link {
+  width: 66px;
+  height: 24px;
   color: var(--navy-blue);
 }
 
-.header-contacts {
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
 }
 
-.header-contacts-list {
-}
-
-.header-contacts-item {
-}
-
-.header-contacts-link {
+.header-contacts .header-contacts-link:hover {
+  width: 153px;
+  height: 24px;
+  color: var(--ocean);
 }
 
 /* Hero styles */
