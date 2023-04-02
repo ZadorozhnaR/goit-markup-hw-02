@@ -27,6 +27,7 @@
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
+  color: var(--primary-text);
 }
 
 .header-contacts {
@@ -39,7 +40,6 @@
 }
 
 .header-contacts-link {
-  color: var(--primary-text);
 }
 
 /* Hero styles */
@@ -54,3 +54,55 @@
 }
 
 /* Section 1 styles */
+
+.about-section {
+}
+.about-title {
+}
+.about-list {
+}
+.about-item {
+}
+.about-title-name {
+}
+.about-undertitle {
+}
+
+/* Section 2 styles */
+
+.projects-section {
+}
+.projects-title {
+}
+.projects-list {
+}
+.projects-item {
+}
+.projects-img {
+}
+
+/* Section 3 styles */
+
+.team-section {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-title-name {
+}
+.team-undertitle {
+}
+
+/* Footer section */
+
+.footer {
+}
+.footer-logo {
+}
+.footer-undertitle {
+}
