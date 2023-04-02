@@ -1,9 +1,11 @@
 :root {
-  --color-main: #2e2f42;
-  --color-secondary: #434455;
-  --accent-color: #ffffff;
+  --color-txt-main: #2e2f42;
+  --color-txt-secondary: #434455;
+  --accent-txt--color: #ffffff;
   --logo-color-main: #4d5ae5;
   --logo-color-secondary: #f4f4fd;
+  --color-bg-main: #2e2f42;
+  --color-bg-secondary: #e7e9fc;
 }
 
 /* Base styles */
@@ -14,6 +16,7 @@
 /* Header styles */
 
 .header {
+  background-color: var(--color-bg-secondary);
 }
 
 .header-nav {
@@ -24,7 +27,7 @@
 }
 
 .header-logo-second {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 
 .header-list {
@@ -36,7 +39,7 @@
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 
 .header-contacts {
@@ -49,13 +52,13 @@
 }
 
 .header-contacts-link {
-  color: var(--color-secondary);
+  color: var(--color-txt-secondary);
 }
 
 /* Hero styles */
 
 .hero {
-  background-color: darkolivegreen;
+  background-color: var(--color-bg-main);
 }
 
 .hero-title {
@@ -69,27 +72,29 @@
 /* Section 1 styles */
 
 .about-section {
+  background-color: #ffffff;
 }
 .about-title {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 .about-list {
 }
 .about-item {
 }
 .about-title-name {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 .about-undertitle {
-  color: var(--color-secondary);
+  color: var(--color-txt-secondary);
 }
 
 /* Section 2 styles */
 
 .projects-section {
+  background-color: var(--color-bg-secondary);
 }
 .projects-title {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 
 .projects-list {
@@ -102,26 +107,29 @@
 /* Section 3 styles */
 
 .team-section {
+  background-color: #f4f4fd;
 }
 .team-title {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-img {
 }
 .team-title-name {
-  color: var(--color-main);
+  color: var(--color-txt-main);
 }
 .team-undertitle {
-  color: var(--color-secondary);
+  color: var(--color-txt-secondary);
 }
 
 /* Footer section */
 
 .footer {
+  background-color: var(--color-bg-main);
 }
 
 .footer-logo {
