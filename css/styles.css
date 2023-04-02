@@ -76,7 +76,8 @@ body {
   color: var(--slate);
 }
 
-.header-contacts-link:hover .header-contacts-link:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
   color: var(--ocean);
 }
 
