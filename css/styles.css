@@ -37,6 +37,21 @@ body {
   list-style: none;
 }
 
+.hero-btn {
+  font-family: inherit
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white)
+  background-color: var(--ocean);
+}
+
 
 
 /* Header styles */
@@ -100,20 +115,7 @@ body {
   color: var(--white);
 }
 
-.hero-btn {
-  font-family: inherit
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  background-color: var(--iris);
-  cursor: pointer;
-}
 
-.btn:hover,
-.btn:focus {
-  color: var(--white)
-  background-color: var(--ocean);
-}
 
 
 
