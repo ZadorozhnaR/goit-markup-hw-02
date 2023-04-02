@@ -28,7 +28,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.link {
+.link .list {
   text-decoration: none;
 }
 
