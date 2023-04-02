@@ -37,16 +37,10 @@ body {
 }
 
 
-
-
-
 /* Header styles */
 
 .header {
   background-color: var(--cornflower);
-}
-
-.header-nav {
 }
 
 .header-logo {
@@ -116,26 +110,18 @@ body {
 }
 
 
-
 /* Section 1 styles */
 
 .about-section {
   background-color: var(--white);
 }
-.about-title {
-}
-.about-list {
-}
-.about-item {
-}
+
 .about-title-name {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
-}
-.about-undertitle {
 }
 
 /* Section 2 styles */
@@ -152,12 +138,6 @@ text-transform: capitalize;
 color: var(--navy-blue);
 }
 
-.projects-list {
-}
-.projects-item {
-}
-.projects-img {
-}
 
 /* Section 3 styles */
 
@@ -172,13 +152,11 @@ text-align: center;
 text-transform: capitalize;
 color: var(--navy-blue);
 }
-.team-list {
-}
+
 .team-item {
   background-color: var(--white);
 }
-.team-img {
-}
+
 .team-title-name {
 font-weight: 500;
 font-size: 20px;
