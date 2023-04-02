@@ -1,10 +1,15 @@
 :root {
   --primary-text: #2e2f42;
+  --secondary-text: #434455;
 }
 
 /* Base styles */
 
 .section {
+}
+
+.logo-second-part {
+  color: #4d5ae5;
 }
 
 /* Header styles */
@@ -15,15 +20,10 @@
 .header-nav {
 }
 
-.header-logo {
-}
-
 .header-list {
-  color: var(--primary-text);
 }
 
 .header-item {
-  color: var(--primary-text);
 }
 
 .header-link:hover,
@@ -42,6 +42,7 @@
 }
 
 .header-contacts-link {
+  color: var(--secondary-text);
 }
 
 /* Hero styles */
@@ -70,6 +71,7 @@
   color: var(--primary-text);
 }
 .about-undertitle {
+  color: var(--secondary-text);
 }
 
 /* Section 2 styles */
@@ -103,13 +105,14 @@
   color: var(--primary-text);
 }
 .team-undertitle {
+  color: var(--secondary-text);
 }
 
 /* Footer section */
 
 .footer {
 }
-.footer-logo {
-}
+
 .footer-undertitle {
+  color: #f4f4fd;
 }
