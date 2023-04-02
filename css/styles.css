@@ -74,28 +74,31 @@ body {
 }
 
 .header-list {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .header-item {
 }
 
 .header-link {
-  width: 66px;
+  width: 48px;
   height: 24px;
-  color: var(--navy-blue);
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--ocean);
 }
 
 .header-contacts-link {
   width: 153px;
   height: 24px;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
+.header-link:hover,
+.header-link:focus,
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: var(--ocean);
