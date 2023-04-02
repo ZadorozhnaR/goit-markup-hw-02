@@ -45,7 +45,7 @@ body {
 .header-nav {
 }
 
-.header-logo:focus {
+.header-logo {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
