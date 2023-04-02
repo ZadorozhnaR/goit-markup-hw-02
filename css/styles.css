@@ -1,6 +1,9 @@
 :root {
-  --primary-text: #2e2f42;
-  --secondary-text: #434455;
+  --color-main: #2e2f42;
+  --color-secondary: #434455;
+  --accent-color: #ffffff;
+  --logo-color-main: #4d5ae5;
+  --logo-color-secondary: #f4f4fd;
 }
 
 /* Base styles */
@@ -17,11 +20,11 @@
 }
 
 .header-logo {
-  color: #4d5ae5;
+  color: var(--logo-color-main);
 }
 
 .header-logo-second {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 
 .header-list {
@@ -33,7 +36,7 @@
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 
 .header-contacts {
@@ -46,20 +49,21 @@
 }
 
 .header-contacts-link {
-  color: var(--secondary-text);
+  color: var(--color-secondary);
 }
 
 /* Hero styles */
 
 .hero {
+  background-color: darkolivegreen;
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 .hero-btn {
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 /* Section 1 styles */
@@ -67,17 +71,17 @@
 .about-section {
 }
 .about-title {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 .about-list {
 }
 .about-item {
 }
 .about-title-name {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 .about-undertitle {
-  color: var(--secondary-text);
+  color: var(--color-secondary);
 }
 
 /* Section 2 styles */
@@ -85,8 +89,9 @@
 .projects-section {
 }
 .projects-title {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
+
 .projects-list {
 }
 .projects-item {
@@ -99,7 +104,7 @@
 .team-section {
 }
 .team-title {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 .team-list {
 }
@@ -108,10 +113,10 @@
 .team-img {
 }
 .team-title-name {
-  color: var(--primary-text);
+  color: var(--color-main);
 }
 .team-undertitle {
-  color: var(--secondary-text);
+  color: var(--color-secondary);
 }
 
 /* Footer section */
@@ -120,13 +125,13 @@
 }
 
 .footer-logo {
-  color: #4d5ae5;
+  color: var(--logo-color-main);
 }
 
 .footer-logo-second {
-  color: #f4f4fd;
+  color: var(--logo-color-secondary);
 }
 
 .footer-undertitle {
-  color: #f4f4fd;
+  color: var(--logo-color-secondary);
 }
