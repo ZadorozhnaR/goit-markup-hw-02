@@ -46,30 +46,16 @@ body {
 }
 
 .header-logo:focus {
-  width: 44px;
-  height: 21px;
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
 }
 
 .header-logo-second {
-  width: 71px;
-  height: 21px;
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--navy-blue);
 }
 
@@ -86,15 +72,9 @@ body {
 }
 
 .header-link {
-  width: 48px;
-  height: 24px;
 }
 
 .header-contacts-link {
-  width: 153px;
-  height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--slate);
 }
 
 .header-link:hover,
