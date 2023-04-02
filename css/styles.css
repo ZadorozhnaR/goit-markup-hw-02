@@ -1,4 +1,6 @@
 :root {
+  /* Colors  */
+
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -11,15 +13,27 @@
   --grey: #2e2f42;
   --white: #ffffff;
   --dairy: #fcfcfc;
+
+  /* Fonts  */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Releway, sans-serif;
 }
 
 /* Base styles */
 
 body {
-  font-family: Roboto, sens-serif;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 .link {
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 /* Header styles */
@@ -61,7 +75,6 @@ body {
 }
 
 .header-contacts-link {
-  color: var(--slate);
 }
 
 /* Hero styles */
@@ -94,7 +107,6 @@ body {
   color: var(--navy-blue);
 }
 .about-undertitle {
-  color: var(--slate);
 }
 
 /* Section 2 styles */
@@ -132,7 +144,6 @@ body {
   color: var(--navy-blue);
 }
 .team-undertitle {
-  color: var(--slate);
 }
 
 /* Footer section */
