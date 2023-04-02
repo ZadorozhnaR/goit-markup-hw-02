@@ -145,7 +145,12 @@ color: var(--navy-blue);
   background-color: var(--cornflower);
 }
 .projects-title {
-  color: var(--navy-blue);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color: var(--navy-blue);
 }
 
 .projects-list {
@@ -161,7 +166,12 @@ color: var(--navy-blue);
   background-color: var(--cloud);
 }
 .team-title {
-  color: var(--navy-blue);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+color: var(--navy-blue);
 }
 .team-list {
 }
@@ -171,9 +181,14 @@ color: var(--navy-blue);
 .team-img {
 }
 .team-title-name {
-  color: var(--navy-blue);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+color: var(--navy-blue);
 }
 .team-undertitle {
+text-align: center;
 }
 
 /* Footer section */
@@ -183,11 +198,23 @@ color: var(--navy-blue);
 }
 
 .footer-logo {
-  color: var(--iris);
+font-family: var(--secondary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
 }
 
 .footer-logo-second {
-  color: var(--cloud);
+font-family: var(--secondary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--cloud);
 }
 
 .footer-undertitle {
