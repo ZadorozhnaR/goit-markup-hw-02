@@ -1,3 +1,7 @@
+:root {
+  --primary-text: #2e2f42;
+}
+
 /* Base styles */
 
 .section {
@@ -35,6 +39,7 @@
 }
 
 .header-contacts-link {
+  color: var(--primary-text);
 }
 
 /* Hero styles */
