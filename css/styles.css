@@ -45,7 +45,7 @@ body {
 .header-nav {
 }
 
-.header-logo {
+.header-logo:focus {
   color: var(--iris);
 }
 
@@ -91,7 +91,7 @@ body {
   color: var(--white);
 }
 
-.hero-btn {
+.hero-btn:focus {
   color: var(--white);
   background-color: var(--iris);
 }
@@ -156,7 +156,7 @@ body {
   background-color: var(--navy-blue-bg);
 }
 
-.footer-logo {
+.footer-logo:focus {
   color: var(--iris);
 }
 
