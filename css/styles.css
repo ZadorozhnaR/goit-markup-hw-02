@@ -91,9 +91,13 @@ body {
   color: var(--white);
 }
 
-.hero-btn:focus {
+.hero-btn {
   color: var(--white);
   background-color: var(--iris);
+}
+
+.hero-btn:hover .hero-btn:focus {
+  background-color: var(--ocean);
 }
 
 /* Section 1 styles */
