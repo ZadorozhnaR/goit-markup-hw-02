@@ -8,16 +8,20 @@
 .section {
 }
 
-.logo-second-part {
-  color: #4d5ae5;
-}
-
 /* Header styles */
 
 .header {
 }
 
 .header-nav {
+}
+
+.header-logo {
+  color: #4d5ae5;
+}
+
+.header-logo-second {
+  color: var(--primary-text);
 }
 
 .header-list {
@@ -51,9 +55,11 @@
 }
 
 .hero-title {
+  color: #ffffff;
 }
 
 .hero-btn {
+  color: #ffffff;
 }
 
 /* Section 1 styles */
@@ -111,6 +117,14 @@
 /* Footer section */
 
 .footer {
+}
+
+.footer-logo {
+  color: #4d5ae5;
+}
+
+.footer-logo-second {
+  color: #f4f4fd;
 }
 
 .footer-undertitle {
