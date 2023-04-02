@@ -15,7 +15,8 @@
 
 /* Base styles */
 
-.section {
+.link {
+  text-decoration: none;
 }
 
 /* Header styles */
