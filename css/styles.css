@@ -19,9 +19,11 @@
 }
 
 .header-list {
+  color: var(--primary-text);
 }
 
 .header-item {
+  color: var(--primary-text);
 }
 
 .header-link:hover,
@@ -58,12 +60,14 @@
 .about-section {
 }
 .about-title {
+  color: var(--primary-text);
 }
 .about-list {
 }
 .about-item {
 }
 .about-title-name {
+  color: var(--primary-text);
 }
 .about-undertitle {
 }
@@ -73,6 +77,7 @@
 .projects-section {
 }
 .projects-title {
+  color: var(--primary-text);
 }
 .projects-list {
 }
@@ -86,6 +91,7 @@
 .team-section {
 }
 .team-title {
+  color: var(--primary-text);
 }
 .team-list {
 }
@@ -94,6 +100,7 @@
 .team-img {
 }
 .team-title-name {
+  color: var(--primary-text);
 }
 .team-undertitle {
 }
