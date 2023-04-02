@@ -28,7 +28,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.link .list {
+.link {
   text-decoration: none;
 }
 
@@ -73,9 +73,10 @@ body {
 .header-contacts {
   width: 153px;
   height: 24px;
+  color: var(--slate);
 }
 
-.header-contacts-link:hover {
+.header-contacts-link:hover .header-contacts-link:focus {
   color: var(--ocean);
 }
 
