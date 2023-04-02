@@ -15,6 +15,9 @@
 
 /* Base styles */
 
+body {
+  font-family: Roboto, sens-serif;
+}
 .link {
   text-decoration: none;
 }
