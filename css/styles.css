@@ -197,3 +197,31 @@ color: var(--cloud);
 .footer-undertitle {
   color: var(--cloud);
 }
+
+
+/* Portfolio */
+
+.portfolio-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--iris);
+background-color: var(--cloud);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+
+.portfolio-title-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+
+}
