@@ -36,11 +36,10 @@ body {
   list-style: none;
 }
 
-
 /* Header styles */
 
 .header {
-  background-color: var(--cornflower);
+  background-color: var(--white);
 }
 
 .header-logo {
@@ -96,19 +95,19 @@ body {
 }
 
 .hero-btn {
-  font-family: inherit
+  font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
-  cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--ocean);
 }
-
 
 /* Section 1 styles */
 
@@ -117,27 +116,26 @@ body {
 }
 
 .about-title-name {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 /* Section 2 styles */
 
 .projects-section {
-  background-color: var(--cornflower);
+  background-color: var(--white);
 }
 .projects-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-text-transform: capitalize;
-color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
 }
-
 
 /* Section 3 styles */
 
@@ -145,12 +143,12 @@ color: var(--navy-blue);
   background-color: var(--cloud);
 }
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-text-transform: capitalize;
-color: var(--navy-blue);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
 }
 
 .team-item {
@@ -158,14 +156,14 @@ color: var(--navy-blue);
 }
 
 .team-title-name {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--navy-blue);
 }
 .team-undertitle {
-text-align: center;
+  text-align: center;
 }
 
 /* Footer section */
@@ -175,39 +173,46 @@ text-align: center;
 }
 
 .footer-logo {
-font-family: var(--secondary-font);
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--iris);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .footer-logo-second {
-font-family: var(--secondary-font);
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--cloud);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
 }
 
 .footer-undertitle {
   color: var(--cloud);
 }
 
-
 /* Portfolio */
 
-.portfolio-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--iris);
-background-color: var(--cloud);
+/* Section 1 */
+
+.portfolio-btn-list,
+.portfolio-img-list {
+  background-color: var(--white);
+}
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
 }
 
 .portfolio-btn:hover,
@@ -216,12 +221,10 @@ background-color: var(--cloud);
   background-color: var(--ocean);
 }
 
-
-.portfolio-title-name{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
-
+.portfolio-title-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
