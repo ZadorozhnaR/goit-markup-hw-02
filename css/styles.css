@@ -24,8 +24,6 @@
 body {
   font-family: var(--primary-font);
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--slate);
   background-color: var(--white);
 }
@@ -57,23 +55,21 @@ body {
   color: var(--navy-blue);
 }
 
-.header-list {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 .header-contacts {
   font-style: normal;
 }
 
 .header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .header-contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -128,6 +124,11 @@ body {
   color: var(--navy-blue);
 }
 
+.about-undertitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 /* Section 2 styles */
 
 .projects-section {
@@ -169,6 +170,8 @@ body {
   color: var(--navy-blue);
 }
 .team-undertitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
