@@ -27,6 +27,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  background-color: var(--white);
 }
 .link {
   text-decoration: none;
@@ -39,11 +40,10 @@ body {
 /* Header styles */
 
 .header {
-  background-color: var(--white);
 }
 
 .header-logo {
-  font-family: var(--secondary-font);
+  font-family: Releway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -62,6 +62,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .header-link {
@@ -102,6 +106,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -112,7 +117,6 @@ body {
 /* Section 1 styles */
 
 .about-section {
-  background-color: var(--white);
 }
 
 .about-title-name {
@@ -126,7 +130,6 @@ body {
 /* Section 2 styles */
 
 .projects-section {
-  background-color: var(--white);
 }
 .projects-title {
   font-weight: 700;
@@ -200,11 +203,6 @@ body {
 
 /* Section 1 */
 
-.portfolio-btn-list,
-.portfolio-img-list {
-  background-color: var(--white);
-}
-
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -213,6 +211,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
